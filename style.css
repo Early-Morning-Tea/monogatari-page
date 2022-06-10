@@ -1,13 +1,15 @@
 header {
-    display: flex;
-    justify-content: flex-end;
     background-color: #1f2937;
+}
+
+nav, 
+.section {
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 nav {
     flex: auto;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 nav ul {
@@ -21,7 +23,8 @@ nav ul {
     margin-block-end: 0px;
 }
 
-nav li {
+nav li, 
+header p{
     font-size: 18px;
     color: #e5e7eb
 }
@@ -30,4 +33,40 @@ nav ul #logo {
     margin-right: auto;
     font-size: 24px;
     color: #f9faf8
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+button {
+    color: #f9faf8;
+    font-weight: 500;
+    background-color: #3882f6;
+}
+
+.section {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#left {
+    flex: 1
+}
+
+#left h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#left p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+header img {
+    flex: 1
 }
