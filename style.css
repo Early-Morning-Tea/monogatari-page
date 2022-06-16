@@ -1,3 +1,4 @@
+/* The first top section */
 header {
     background-color: #1f2937;
 }
@@ -69,4 +70,28 @@ button {
 
 header img {
     flex: 1
+}
+
+
+/* The second section */
+#second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+#second ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    flex: auto;
+    padding-inline-start: 0px;
 }
