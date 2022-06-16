@@ -5,8 +5,8 @@ header {
 
 nav, 
 .section {
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 nav {
@@ -94,4 +94,33 @@ header img {
     column-gap: 50px;
     flex: auto;
     padding-inline-start: 0px;
+}
+
+
+/* The third section */
+#third {
+    background-color: #e5e7eb;
+}
+
+#third div {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#third p {
+    margin-block-start: 0px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-block-end: 0px;
+}
+
+#third #cite {
+    margin-block-start: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
 }
