@@ -124,3 +124,34 @@ header img {
     font-size: 30px;
     text-align: right;
 }
+
+#fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth #blue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 75px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    width: 750px;
+    justify-content: space-between;
+}
+
+#fourth p {
+    color: #f9faf8;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#fourth #call {
+    font-weight: bold;
+    font-size: 24px;
+}
