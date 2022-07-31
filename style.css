@@ -214,6 +214,11 @@ nav ul #logo {
     padding-right: 4em;
     width: 750px;
     justify-content: space-between;
+    border-radius: 0.5em;
+}
+
+#fourth .left {
+    flex: 1;
 }
 
 #fourth p {
@@ -225,8 +230,34 @@ nav ul #logo {
 #fourth #call {
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 0.35em;
 }
 
+#fourth .right {
+    padding-left: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.35;
+}
+
+#fourth a {
+    color: #f9faf8;
+    font-weight: 500;
+    background-color: #1f2937;
+    border-radius: 0.5em;
+    border: 0.1em solid white;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+/* Footer */
 footer {
     background-color: #1f2937;
     padding: 10px;
