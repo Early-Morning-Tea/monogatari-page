@@ -121,7 +121,8 @@ nav ul #logo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgb(18, 64, 126), rgb(7, 16, 64))
+    background-image: linear-gradient(rgb(18, 64, 126), rgb(7, 16, 64));
+    margin-top: 15em;
 }
 
 #second h1 {
@@ -139,6 +140,12 @@ nav ul #logo {
     flex: auto;
     padding-inline-start: 0px;
     color: white;
+    text-align: center;
+}
+
+#second img {
+    width: 12em;
+    height: 14em;
 }
 
 
