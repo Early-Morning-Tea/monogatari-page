@@ -10,6 +10,10 @@
     z-index: -2;
 }
 
+body {
+    margin: 0;
+}
+
 /* The nav section */
 header {
     background-color: #1f2937;
@@ -151,22 +155,35 @@ nav ul #logo {
 
 /* The third section */
 #third {
-    background-color: #e5e7eb;
+    background-image: url(resources/hanekawa-background-cropped.jpg);
+    background-size: cover;
+    background-position: 15%;
+    background-position-y: -5em;
+    object-fit: cover;
+    background-attachment: local;
+    border-top: .4rem solid rgba(7, 16, 64, 1);
+    border-bottom: .4rem solid rgba(7, 16, 64, 1);
+    margin-top: 15em;
 }
 
 #third div {
-    padding-top: 5em;
-    padding-bottom: 5em;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 #third p {
     margin-block-start: 0px;
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #e0d6c8;
     margin-block-end: 0px;
+    text-align: center;
+    border-radius: 1em;
+    text-shadow: 0 0 1em black, 0 0 2em black;
+    letter-spacing: 0.1em;
+    margin: 0.5em 0;
 }
 
 #third #cite {
@@ -181,6 +198,8 @@ nav ul #logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
 }
 
 #fourth #blue {
