@@ -32,14 +32,16 @@ header {
     background-color: #1f2937;
 }
 
-nav, 
-.section {
-    padding-left: 10em;
-    padding-right: 10em;
+#logo_img {
+    float: left;
+    height: 1em;
+    width: 1em;
 }
 
 nav {
     flex: auto;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 nav ul {
