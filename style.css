@@ -10,6 +10,19 @@
     z-index: -2;
 }
 
+@font-face {
+    font-family: Monaco;
+    src: url(resources/fonts/Monaco.ttf)
+}
+
+* {
+    font-family: Monaco, serif;
+}
+
+h1 {
+    font-family: adobe-garamond-pro, serif;
+}
+
 body {
     margin: 0;
 }
@@ -42,6 +55,8 @@ nav ul {
 
 nav li, 
 header p{
+    font-family: adobe-garamond-pro, serif;
+    font-weight: bold;
     font-size: 18px;
     color: #e5e7eb
 }
@@ -208,12 +223,8 @@ nav ul #logo {
     justify-content: center;
     background-color: #3882f6;
     margin: 75px;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding: 1.5em 4em;
     width: 750px;
-    justify-content: space-between;
     border-radius: 0.5em;
 }
 
@@ -247,7 +258,7 @@ nav ul #logo {
     background-color: #1f2937;
     border-radius: 0.5em;
     border: 0.1em solid white;
-    width: 10em;
+    width: 13em;
     height: 3em;
     display: flex;
     justify-content: center;
