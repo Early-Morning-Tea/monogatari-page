@@ -110,7 +110,7 @@ nav ul #logo {
 #left a {
     color: #f9faf8;
     font-weight: 500;
-    background-color: #3882f6;
+    background-color: #1f2937;
     border-radius: 2em;
     border: 0.2em solid white;
     width: 10em;
@@ -182,10 +182,7 @@ nav ul #logo {
 }
 
 #third div {
-    padding-top: 10em;
-    padding-bottom: 10em;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding: 10em 5em;
 }
 
 #third p {
@@ -221,7 +218,7 @@ nav ul #logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3882f6;
+    background-color: rgba(0, 0, 0, 0.7);
     margin: 75px;
     padding: 1.5em 4em;
     width: 750px;
