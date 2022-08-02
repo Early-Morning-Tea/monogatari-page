@@ -81,7 +81,7 @@ nav ul #logo {
     border-radius: 0.5em;
     border-color: cyan;
     border-width: 2em;
-    display: block;
+    display: none;
 }
 
 /* The first section */
