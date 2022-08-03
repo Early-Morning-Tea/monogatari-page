@@ -319,7 +319,6 @@ footer p {
     background-color: rgba(0, 0, 0, 0.9);
     background-size: initial;
     background-attachment: local;
-    /*border-top: .1rem solid #1f2937; /* kind of cheating, there's probably a better way to do this */
     border-bottom: .1rem solid rgba(7, 16, 64, 1);
     padding-left: 10em;
     padding-right: 10em;
