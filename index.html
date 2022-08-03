@@ -9,37 +9,20 @@
     <title>The Monogatari Series</title>
     <link rel="shortcut icon" type="image/png" href="resources/logo.png">
     <link rel="stylesheet" href="https://use.typekit.net/ohp0qym.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 <div class="backgroundContainer">
     <video src="resources/landscape.mp4" id="background" muted autoplay loop></video>
 </div>
-<header>
-    <nav>
-        <ul>
-            <li><img src="resources/logo.png" , id="logo_img"/></li>
-            <li id="logo">Monogatari</li>
-            <li id="sources">
-                <button class="click" onclick="toggle()">Sources</button>
-                <div class="content" style="display: none;">
-                    <p>Dynamic background:
-                        https://www.desktophut.com/video/hitagi-senjougahara-bakemonogatari-landscape-4k-live-wallpaper/</p>
-                    <p>First falling image: Bakemonogatari Episode 1</p>
-                    <p>Image above "Bakemonogatari":
-                        https://www.deviantart.com/blazingwarlord/art/Bakemonogatari-Falling-199327373</p>
-                    <p>Image above "Kizumonogatari": Kizumonogatari title art</p>
-                    <p>Image above "Nisemonogatari": https://www.pinterest.com/pin/607634174708366239/</p>
-                    <p>Image above "Nekomonogatari": https://www.pinterest.com/pin/332773859967601614/</p>
-                    <p>Background behind quote: Bakeomonogatari Episode 1</p>
-                </div>
-            </li>
-            <li><a href="#" class="link">About</a></li>
-            <li><a href="#" class="link">Guide</a></li>
-            <li><a href="faq.html" class="link">FAQ</a></li>
-            <li><a href="#" class="link">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<div id="navigation-bar">
+
+</div>
+<script>
+    $(function () {
+        $("#navigation-bar").load("navigation_bar.html");
+    });
+</script>
 <div class="mainContent">
     <div class="|">
         <div id="first">
@@ -49,7 +32,8 @@
                         Welcome to the Monogatari Series
                     </h1>
                     <p>
-                        The Monogatari Series is a light novel series written by Nisio Isin. It has become a cult classic and
+                        The Monogatari Series is a light novel series written by Nisio Isin. It has become a cult
+                        classic and
                         has spawned many adaptations,
                         including a series of critically acclaimed anime, praised for their unique artistic choices and
                         directing style. Check out the link below
@@ -65,7 +49,7 @@
                 </div>
             </div>
             <div class="sources">
-    
+
             </div>
         </div>
         <div id="second">
@@ -118,22 +102,27 @@
                         Wish to rewatch the series?
                     </p>
                     <p>
-                        The second time through, it may be meaningful to experience the story in chronological order. Check out
+                        The second time through, it may be meaningful to experience the story in chronological order.
+                        Check out
                         the wiki on the right to get started.
                     </p>
                 </div>
                 <div class="right">
-                    <a class="button" href="https://bakemonogatari.fandom.com/wiki/Monogatari_Series_Timeline_and_Watch_Guide#Chronological_Order">Chronological
+                    <a class="button"
+                       href="https://bakemonogatari.fandom.com/wiki/Monogatari_Series_Timeline_and_Watch_Guide#Chronological_Order">Chronological
                         Order</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<footer>
-    <p>
-        Copyright 2022 &copy Raymond Chang & Charles Tian
-    </p>
-</footer>
+<div id="footer">
+
+</div>
+<script>
+    $(function () {
+        $("#footer").load("footer.html");
+    });
+</script>
 </body>
 </html>
