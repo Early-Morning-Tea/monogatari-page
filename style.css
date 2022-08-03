@@ -25,6 +25,14 @@ h1 {
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: auto;
 }
 
 /* Effects */
@@ -37,6 +45,7 @@ body {
 /* The nav section */
 header {
     background-color: #1f2937;
+    flex: 0;
 }
 
 #logo_img {
@@ -310,9 +319,64 @@ nav ul #logo {
 footer {
     background-color: #1f2937;
     padding: 10px;
+    flex: 0;
 }
 
 footer p {
     text-align: center;
     color: #e5e7eb;
+}
+
+#faq-header {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: initial;
+    background-attachment: local;
+    border-bottom: .1rem solid rgba(7, 16, 64, 1);
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#faq-header h1 {
+    margin-block-start: 0px;
+    font-size: 36px;
+    color: white;
+    margin-block-end: 0px;
+    text-align: center;
+    border-radius: 1em;
+    text-shadow: 0 0 1em black, 0 0 2em black;
+    letter-spacing: 0.1em;
+    padding: 0.5em 0;
+}
+
+#faq-body .container {
+    width: 60%;
+    height: 100%;
+    margin: 20px auto 20px auto;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69 69 69);
+}
+
+#faq-body question {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#faq-body answer {
+    font-size: 20px;
+    color: white;
+}
+
+#center {
+    color: white;
+    margin: 3em 2em 3em 5em;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: flex-start;
 }
