@@ -320,6 +320,7 @@ footer p {
 #faq-body .container {
     width: 60%;
     height: 100%;
+    margin: 20px auto 20px auto;
     border-radius: 1.5em;
     display: flex;
     justify-content: center;
