@@ -9,7 +9,6 @@ function toggle() {
     }
 }
 
-
 const images = document.querySelectorAll('#second img');
 const buttons = document.querySelectorAll('.button');
 images.forEach(image => image.addEventListener('mouseover', hover));
