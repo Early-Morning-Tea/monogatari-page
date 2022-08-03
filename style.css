@@ -27,6 +27,13 @@ body {
     margin: 0;
 }
 
+/* Effects */
+.hovering {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
 /* The nav section */
 header {
     background-color: #1f2937;
@@ -181,6 +188,9 @@ nav ul #logo {
 #second img {
     width: 12em;
     height: 14em;
+    transition: all .07s ease;
+    border: .2rem solid black;
+    border-radius: .5rem;
 }
 
 
