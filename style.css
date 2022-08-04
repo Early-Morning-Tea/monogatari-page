@@ -53,23 +53,6 @@ header {
     height: 1em;
     width: 1em;
 }
-
-nav {
-    flex: auto;
-    padding-left: 10em;
-    padding-right: 10em;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    column-gap: 50px;
-    padding-inline-start: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-}
  
 header p{
     font-family: adobe-garamond-pro, serif;
