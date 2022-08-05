@@ -1,76 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="app.js" defer></script>
-  <style>
-    body{
-      margin: 60px 0px 0px;
-      padding: 0px;
-    }
-    nav{
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-      display: flex;
-      position: fixed;
-      top:0;
-      width: 100%;
-      background-color: #1f2937;
-      overflow: auto;
-      height: auto;
-    }
-    .logo-image{
-      width: 46px;
-      height: 46px;
-      border-radius: 50%;
-      overflow: hidden;
-    }
-    .logo-image img {
-      height: 95%;
-      width: 95%;
-      margin-top: 5%;
-      margin-bottom: 5%;
-      margin-right: 10px;
-    }
-    .left-links{
-      flex:1 1 200px;
-    }
-    .right-links {
-      margin-right: 10px;
-    }
-    .links, .title {
-      display: inline-block;
-      text-align: center;
-      padding: 14px;
-      color: white;
-      text-decoration: none;
-      font-size: 17px;
-      font-weight: bolder;
-      border-bottom: 2px solid transparent;
-    }
-    .links:hover {
-      border-bottom: 2px solid white;
-    }
-    .selected{
-      border-bottom: 2px solid white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <style>
+        body {
+            margin: 60px 0px 0px;
+            padding: 0px;
+        }
+
+        nav {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            display: flex;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #1f2937;
+            overflow: auto;
+            height: auto;
+        }
+
+        .logo-image {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .logo-image img {
+            height: 95%;
+            width: 95%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-right: 10px;
+        }
+
+        .left-links {
+            flex: 1 1 200px;
+        }
+
+        .right-links {
+            margin-right: 10px;
+        }
+
+        .links, .title {
+            display: inline-block;
+            text-align: center;
+            padding: 14px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bolder;
+            border-bottom: 2px solid transparent;
+        }
+
+        .links:hover {
+            border-bottom: 2px solid white;
+        }
+
+        .selected {
+            border-bottom: 2px solid white;
+        }
+    </style>
 </head>
 <body>
 <nav>
-  <div class="logo-image">
-    <img src="/resources/logo.png" class="nav-logo">
-  </div>
-  <div class="left-links">
-    <a class="title" href="index.html">Monogatari</a>
-  </div>
-  <div class="right-links">
-    <a class="links" href="#">About</a>
-    <a class="links" href="#">Guide</a>
-    <a class="links" href="faq.html">FAQ</a>
-    <a class="links" href="#">Sources</a>
-  </div>
+    <div class="logo-image">
+        <img src="/resources/logo.png" class="nav-logo">
+    </div>
+    <div class="left-links">
+        <a class="title" href="index.html">Monogatari</a>
+    </div>
+    <div class="right-links">
+        <a class="links" href="#">About</a>
+        <a class="links" href="#">Guide</a>
+        <a class="links" href="faq.html">FAQ</a>
+        <a id="sources" class="links" onclick="toggle()">
+            <div class="content" style="display: none;">
+                <p>Dynamic background:
+                    https://www.desktophut.com/video/hitagi-senjougahara-bakemonogatari-landscape-4k-live-wallpaper/</p>
+                <p>First falling image: Bakemonogatari Episode 1</p>
+                <p>Image above "Bakemonogatari":
+                    https://www.deviantart.com/blazingwarlord/art/Bakemonogatari-Falling-199327373</p>
+                <p>Image above "Kizumonogatari": Kizumonogatari title art</p>
+                <p>Image above "Nisemonogatari": https://www.pinterest.com/pin/607634174708366239/</p>
+                <p>Image above "Nekomonogatari": https://www.pinterest.com/pin/332773859967601614/</p>
+                <p>Background behind quote: Bakeomonogatari Episode 1</p>
+            </div>
+        Sources</a>
+
+    </div>
 </nav>
 </body>
 </html>
