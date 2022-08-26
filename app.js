@@ -1,6 +1,8 @@
 src = document.querySelector('#sources .content');
 
 function toggle() {
+    console.log("Entered toggle()");
+    console.log(src.style.display);
     if (src.style.display == 'none') {
         src.style.display = 'block';
     }
@@ -28,7 +30,6 @@ function stopHover(e) {
 }
 
 function setToVisited(e) {
-    console.log(this);
     links.forEach(link => link.classList.remove("selected"));
     this.classList.add("selected");
 }

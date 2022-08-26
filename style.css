@@ -66,21 +66,6 @@ nav ul #logo {
     color: #f9faf8
 }
 
-#sources {
-    margin-right: auto;
-}
-
-#sources .content {
-    position: absolute;
-    left: 2.5em;
-    top: 5%;
-    background-color: rgba(31, 41, 55, 0.95);
-    padding: 0.25em 1.5em;
-    border-radius: 0.5em;
-    border-color: cyan;
-    border-width: 2em;
-}
-
 .link {
     font-family: adobe-garamond-pro, serif;
     text-decoration: underline;
