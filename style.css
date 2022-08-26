@@ -53,23 +53,6 @@ header {
     height: 1em;
     width: 1em;
 }
-
-nav {
-    flex: auto;
-    padding-left: 10em;
-    padding-right: 10em;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    column-gap: 50px;
-    padding-inline-start: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-}
  
 header p{
     font-family: adobe-garamond-pro, serif;
@@ -81,21 +64,6 @@ header p{
 nav ul #logo {
     font-size: 24px;
     color: #f9faf8
-}
-
-#sources {
-    margin-right: auto;
-}
-
-#sources .content {
-    position: absolute;
-    left: 2.5em;
-    top: 5%;
-    background-color: rgba(31, 41, 55, 0.95);
-    padding: 0.25em 1.5em;
-    border-radius: 0.5em;
-    border-color: cyan;
-    border-width: 2em;
 }
 
 .link {
