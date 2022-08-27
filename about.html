@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>The Monogatari Series</title>
+  <link rel="shortcut icon" type="image/png" href="resources/logo.png">
+  <link rel="stylesheet" href="https://use.typekit.net/ohp0qym.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div class="backgroundContainer">
+  <video src="resources/landscape.mp4" id="background" muted autoplay loop></video>
+</div>
+<script>
+  $(function () {
+    $("#navigation-bar").load("navigation_bar.html");
+    $("#footer").load("footer.html");
+  });
+</script>
+<div id="navigation-bar"></div>
+<div id="faq-header">
+  <div>
+    <h1>About Us</h1>
+  </div>
+</div>
+<div class="mainContent" id="faq-body">
+  <div class="container">
+    <div id="center">
+      Raymond Chang is an undergraduate student at Cornell University double majoring in computer science and math. He is a fan of the Monogatari series.<br><br>
+
+      Charles Tian is an undergraduate student at Rensselaer Polytechnic Institute majoring in computer science. He is a fan of the Monogatari series.
+  </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
